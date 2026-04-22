@@ -1,0 +1,26 @@
+{
+  "name": "multi-layer-world-benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "build:llm-runner": "esbuild scripts/run_llm_benchmark.ts --bundle --platform=node --format=esm --outfile=build-node/run_llm_benchmark.mjs",
+    "run:llm:heuristic": "npm run build:llm-runner && node build-node/run_llm_benchmark.mjs --mode heuristic",
+    "build:phase-router-min": "esbuild scripts/compute_phase_router_min_steps.ts --bundle --platform=node --format=esm --outfile=build-node/compute_phase_router_min_steps.mjs",
+    "run:phase-router-min": "npm run build:phase-router-min && node build-node/compute_phase_router_min_steps.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}

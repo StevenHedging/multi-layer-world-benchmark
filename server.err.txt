@@ -1,0 +1,10 @@
+::ffff:127.0.0.1 - - [18/Apr/2026 18:27:41] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 18:27:41] "GET /assets/index-fKbom9ZM.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 18:28:32] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 18:28:32] "GET /assets/index-fKbom9ZM.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 18:28:32] "GET /assets/index-C2XbvBOm.css HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 18:28:32] code 404, message File not found
+::ffff:127.0.0.1 - - [18/Apr/2026 18:28:32] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [18/Apr/2026 19:08:20] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 19:08:20] "GET /assets/index-DZWgo4CQ.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [18/Apr/2026 19:08:20] "GET /assets/index-C2XbvBOm.css HTTP/1.1" 200 -

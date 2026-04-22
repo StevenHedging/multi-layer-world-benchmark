@@ -1,0 +1,17 @@
+{
+    "mode":  "heuristic",
+    "success":  false,
+    "totalSteps":  26,
+    "possessions":  3,
+    "interactions":  5,
+    "theorySubmissions":  0,
+    "totalScore":  -0.8666666666666667,
+    "mainTaskScore":  0,
+    "hiddenTaskScore":  0.6666666666666666,
+    "ruleDiscoveryScore":  0,
+    "evidenceScore":  0,
+    "efficiencyScore":  0.1333333333333333,
+    "hiddenCompleted":  4,
+    "hiddenTotal":  6,
+    "feedback":  "No theory submitted yet."
+}
